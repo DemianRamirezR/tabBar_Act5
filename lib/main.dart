@@ -37,9 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 borderRadius: BorderRadius.circular(50), // Creates border
                 color: Colors.greenAccent), //Change background color from here
             tabs: [
-              Tab(icon: Icon(Icons.flight)),
-              Tab(icon: Icon(Icons.directions_transit)),
-              Tab(icon: Icon(Icons.directions_car)),
+              Tab(icon: Icon(Icons.verified_user)),
+              Tab(icon: Icon(Icons.task)),
+              Tab(icon: Icon(Icons.add_task)),
               Tab(icon: Icon(Icons.access_time)),
             ],
           ),
@@ -47,9 +47,9 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: const TabBarView(
           children: [
-            Icon(Icons.flight, size: 350),
-            Icon(Icons.directions_transit, size: 350),
-            Icon(Icons.directions_car, size: 350),
+            Icon(Icons.verified_user, size: 350),
+            Icon(Icons.task, size: 350),
+            Icon(Icons.add_task, size: 350),
             Icon(Icons.access_time, size: 350),
           ],
         ),
